@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="./js/script.js"></script>
+    <title>Opprett Bruker</title>
+    <script src="../js/script.js"></script>
 </head>
 <body>
-    <h1>Logg Inn</h1>
+    <h1>Opprett Bruker</h1>
     <form action="" method="post">
         <label for="epost">Epost</label>
         <input type="email" name="email" id="email">
         <label for="passord">Passord</label>
         <input type="password" name="password" id="password">
+        <label for="gjentapassord">Gjenta Passord</label>
+        <input type="password" name="repeatpassword" id="repeatpassword">
     </form>
-    <button onclick="loggInn()">Logg Inn</button>
+    <button onclick="opprettBruker()">Opprett Bruker</button>
 </body>
 </html>
